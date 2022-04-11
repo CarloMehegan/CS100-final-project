@@ -1,12 +1,7 @@
 # CS100 final project
 # Spotify@Russia
 
-
-
-
-
-
-
+#this script creates a wordcloud from one specified file
 
 import pandas as pd
 data = pd.read_csv("040822 Belarus.csv", dtype="string")
@@ -26,8 +21,6 @@ for i in data.Genres.values:
         word = i.replace(" ", "")
         s = s + word + "\n"
 print(s)
-
-
 
 
 

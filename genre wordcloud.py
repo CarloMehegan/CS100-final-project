@@ -1,6 +1,9 @@
 # CS100 final project
 # Spotify@Russia
 
+#this script creates a wordcloud using all files for the 9 bordering countries
+#must specify end date on line 11
+
 countries = ['Belarus', 'Estonia', 'Finland', 'Kazakhstan', 'Latvia', 'Lithuania', 'Norway', 'Poland', 'Ukraine']
 other = ['Global', 'USA', 'Russia'] #Russia playlist is now unavailable!
 start_date = 40822
