@@ -18,7 +18,7 @@ for c in countries:
         try:
             data = pd.read_csv(file_name, dtype="string")
             s = ""
-            for i in data.Genres.values:
+            for i in data["Genres"].values: #TODO change this line to use a different column
                 if str(i) == "<NA>":
                     pass
                 else:
