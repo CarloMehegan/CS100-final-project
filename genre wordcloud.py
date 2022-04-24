@@ -8,7 +8,7 @@ countries = ['Belarus', 'Estonia', 'Finland', 'Kazakhstan', 'Latvia', 'Lithuania
 other = ['Global', 'USA', 'Russia'] #Russia playlist is now unavailable!
 start_date = 40822
 day_increment = 100
-end_date = 41122
+end_date = 42322
 
 import pandas as pd
 genres = ""
